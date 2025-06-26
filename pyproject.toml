@@ -1,0 +1,7 @@
+[project]
+name = "Spirob Controller"
+version = "0.1.0"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"] # Add src to Python's search path
+testpaths = ["tests"] # Tell pytest where your tests are
